@@ -1,0 +1,14 @@
+PODS:
+  - LITSwiftToolkit (0.0.1)
+
+DEPENDENCIES:
+  - LITSwiftToolkit (from `../../`)
+
+EXTERNAL SOURCES:
+  LITSwiftToolkit:
+    :path: "../../"
+
+SPEC CHECKSUMS:
+  LITSwiftToolkit: a020f811de30fe10da93ab19a43c6fdec2edbdc1
+
+COCOAPODS: 0.39.0

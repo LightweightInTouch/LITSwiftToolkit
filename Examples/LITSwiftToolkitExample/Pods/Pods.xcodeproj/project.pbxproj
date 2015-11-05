@@ -1,0 +1,551 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F9038F418F75C56C4E7613AF431C134 /* Pods-LITSwiftToolkitExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9AA76929280C958385B6089E4958AEA /* Pods-LITSwiftToolkitExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12146E90B7682F2197AEA7DC50903AF7 /* NSStringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E21CE63A10C5E59CA457EFDBFD8FE7 /* NSStringExtensions.swift */; };
+		3DBE4649B1211AC4551B7C1C2A0D615F /* LITSwiftToolkit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 528BFDBD777D5672DD4DF17B313787A1 /* LITSwiftToolkit-dummy.m */; };
+		50894EED47359DF1102ACDA6FC59A997 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		5CFC44725BE56C226710E1C8AAA3BAB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
+		5F713002012B484D35BC87E929D5A7E7 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6081DFC9EEEA7092F0C474C92C190B68 /* UIViewControllerExtensions.swift */; };
+		6DF56F1022742A520D898D2339815B6B /* LITSwiftToolkit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D9FEAF47EDBE1AFA14C2F55817F4031 /* LITSwiftToolkit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7EBB4968CCF7396D2C35C488C4315683 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */; };
+		FA1974321E7A24FC1AF3E45DFCA10AD2 /* Pods-LITSwiftToolkitExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55860F76A034726A48F47B420C0167C0 /* Pods-LITSwiftToolkitExample-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E416E282F32DA52DAE20CB5325BD9D40 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B3A5F3D668B5DC0BD874F2036F5AE7E;
+			remoteInfo = LITSwiftToolkit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0CBDA9B06058AEBF37F7BE287AB320A7 /* Pods_LITSwiftToolkitExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LITSwiftToolkitExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		23DE9AFCE14DCB23A6C8E1DA0E18254A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		29BEE4BF8166AB49CE457073692DF3EE /* LITSwiftToolkit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LITSwiftToolkit.xcconfig; sourceTree = "<group>"; };
+		441DE240BF67FC4293A662595831DCD2 /* Pods-LITSwiftToolkitExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LITSwiftToolkitExample.modulemap"; sourceTree = "<group>"; };
+		448376A45E914AA7D15CE06C7203FC77 /* LITSwiftToolkit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LITSwiftToolkit-prefix.pch"; sourceTree = "<group>"; };
+		4CAEAB68CB7E09F7E8DF8C63FFD95D15 /* Pods-LITSwiftToolkitExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LITSwiftToolkitExample.release.xcconfig"; sourceTree = "<group>"; };
+		4D90E13FCEE20BC53468C37F809B51F0 /* Pods-LITSwiftToolkitExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LITSwiftToolkitExample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		528BFDBD777D5672DD4DF17B313787A1 /* LITSwiftToolkit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LITSwiftToolkit-dummy.m"; sourceTree = "<group>"; };
+		54E7F5CA52919CB3BF5167964A7A753A /* Pods-LITSwiftToolkitExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LITSwiftToolkitExample-frameworks.sh"; sourceTree = "<group>"; };
+		55860F76A034726A48F47B420C0167C0 /* Pods-LITSwiftToolkitExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LITSwiftToolkitExample-dummy.m"; sourceTree = "<group>"; };
+		5BADBB197FA56BEDA507C1FF580247FA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D9FEAF47EDBE1AFA14C2F55817F4031 /* LITSwiftToolkit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LITSwiftToolkit-umbrella.h"; sourceTree = "<group>"; };
+		5FD01740EB06E2F447AB22A0C9DB1855 /* LITSwiftToolkit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LITSwiftToolkit.modulemap; sourceTree = "<group>"; };
+		6081DFC9EEEA7092F0C474C92C190B68 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		63E14296E8127BBE8724014624C39527 /* Pods-LITSwiftToolkitExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LITSwiftToolkitExample-resources.sh"; sourceTree = "<group>"; };
+		66E21CE63A10C5E59CA457EFDBFD8FE7 /* NSStringExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NSStringExtensions.swift; sourceTree = "<group>"; };
+		688435909B215347011DEFD7DE13D8A1 /* Pods-LITSwiftToolkitExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LITSwiftToolkitExample-acknowledgements.plist"; sourceTree = "<group>"; };
+		6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		AC1F92DACBC935FE673389C83DED1A83 /* LITSwiftToolkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LITSwiftToolkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		C15E09A784A1D3F4AABC2C96E977D615 /* Pods-LITSwiftToolkitExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LITSwiftToolkitExample.debug.xcconfig"; sourceTree = "<group>"; };
+		C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		C9AA76929280C958385B6089E4958AEA /* Pods-LITSwiftToolkitExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LITSwiftToolkitExample-umbrella.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D79824D78E4DB81478FBEC31F7D1951 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				50894EED47359DF1102ACDA6FC59A997 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E71E433C47DD42CEC4A87E1712E35CC0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5CFC44725BE56C226710E1C8AAA3BAB3 /* Foundation.framework in Frameworks */,
+				7EBB4968CCF7396D2C35C488C4315683 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0126200A09DEA5E5BA77AF7E49A432CE /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				6081DFC9EEEA7092F0C474C92C190B68 /* UIViewControllerExtensions.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		18340F12838DEE43507667CC74401EB1 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */,
+				C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		2D221793F7E8AFEBABC9EC30C5FDD771 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4BC78C852070BFC7726A494EE9BEA447 /* NSFoundation */,
+				0126200A09DEA5E5BA77AF7E49A432CE /* UIKit */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				18340F12838DEE43507667CC74401EB1 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4BC78C852070BFC7726A494EE9BEA447 /* NSFoundation */ = {
+			isa = PBXGroup;
+			children = (
+				66E21CE63A10C5E59CA457EFDBFD8FE7 /* NSStringExtensions.swift */,
+			);
+			path = NSFoundation;
+			sourceTree = "<group>";
+		};
+		5050350BCA4995A14C76AEEC7B2E7FA8 /* Pods-LITSwiftToolkitExample */ = {
+			isa = PBXGroup;
+			children = (
+				5BADBB197FA56BEDA507C1FF580247FA /* Info.plist */,
+				441DE240BF67FC4293A662595831DCD2 /* Pods-LITSwiftToolkitExample.modulemap */,
+				4D90E13FCEE20BC53468C37F809B51F0 /* Pods-LITSwiftToolkitExample-acknowledgements.markdown */,
+				688435909B215347011DEFD7DE13D8A1 /* Pods-LITSwiftToolkitExample-acknowledgements.plist */,
+				55860F76A034726A48F47B420C0167C0 /* Pods-LITSwiftToolkitExample-dummy.m */,
+				54E7F5CA52919CB3BF5167964A7A753A /* Pods-LITSwiftToolkitExample-frameworks.sh */,
+				63E14296E8127BBE8724014624C39527 /* Pods-LITSwiftToolkitExample-resources.sh */,
+				C9AA76929280C958385B6089E4958AEA /* Pods-LITSwiftToolkitExample-umbrella.h */,
+				C15E09A784A1D3F4AABC2C96E977D615 /* Pods-LITSwiftToolkitExample.debug.xcconfig */,
+				4CAEAB68CB7E09F7E8DF8C63FFD95D15 /* Pods-LITSwiftToolkitExample.release.xcconfig */,
+			);
+			name = "Pods-LITSwiftToolkitExample";
+			path = "Target Support Files/Pods-LITSwiftToolkitExample";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				EB061EB2B5812C09A43AE3576D58DCD1 /* Development Pods */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				93267D78E9322B249AFD5CC1D3DF8F3E /* Products */,
+				9013D81C8D0921E5B9E2ED4F52388A6D /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F6F9D9D2CD662CF40AA22DFEB369E81 /* LITSwiftToolkit */ = {
+			isa = PBXGroup;
+			children = (
+				8F189AD2121B66EA86606CD466D0FAC1 /* LITSwiftToolkit */,
+				CA303BBCC0EBEAD5113FD37CB3EB4D93 /* Support Files */,
+			);
+			name = LITSwiftToolkit;
+			path = ../../..;
+			sourceTree = "<group>";
+		};
+		8F189AD2121B66EA86606CD466D0FAC1 /* LITSwiftToolkit */ = {
+			isa = PBXGroup;
+			children = (
+				DDF9420F931BAC07D182458DA22FCAF5 /* Tools */,
+			);
+			path = LITSwiftToolkit;
+			sourceTree = "<group>";
+		};
+		9013D81C8D0921E5B9E2ED4F52388A6D /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5050350BCA4995A14C76AEEC7B2E7FA8 /* Pods-LITSwiftToolkitExample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		93267D78E9322B249AFD5CC1D3DF8F3E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC1F92DACBC935FE673389C83DED1A83 /* LITSwiftToolkit.framework */,
+				0CBDA9B06058AEBF37F7BE287AB320A7 /* Pods_LITSwiftToolkitExample.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA303BBCC0EBEAD5113FD37CB3EB4D93 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				23DE9AFCE14DCB23A6C8E1DA0E18254A /* Info.plist */,
+				5FD01740EB06E2F447AB22A0C9DB1855 /* LITSwiftToolkit.modulemap */,
+				29BEE4BF8166AB49CE457073692DF3EE /* LITSwiftToolkit.xcconfig */,
+				528BFDBD777D5672DD4DF17B313787A1 /* LITSwiftToolkit-dummy.m */,
+				448376A45E914AA7D15CE06C7203FC77 /* LITSwiftToolkit-prefix.pch */,
+				5D9FEAF47EDBE1AFA14C2F55817F4031 /* LITSwiftToolkit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Examples/LITSwiftToolkitExample/Pods/Target Support Files/LITSwiftToolkit";
+			sourceTree = "<group>";
+		};
+		DDF9420F931BAC07D182458DA22FCAF5 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				2D221793F7E8AFEBABC9EC30C5FDD771 /* Extensions */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		EB061EB2B5812C09A43AE3576D58DCD1 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F6F9D9D2CD662CF40AA22DFEB369E81 /* LITSwiftToolkit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		04A257FC8AAD3414421AB826CF9231C6 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F9038F418F75C56C4E7613AF431C134 /* Pods-LITSwiftToolkitExample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		10DC154CBDD6445EEEBAED920C282680 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6DF56F1022742A520D898D2339815B6B /* LITSwiftToolkit-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8B3A5F3D668B5DC0BD874F2036F5AE7E /* LITSwiftToolkit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 57661CB82E7950AA0C9AEB657EC00332 /* Build configuration list for PBXNativeTarget "LITSwiftToolkit" */;
+			buildPhases = (
+				0D703120B269E16749747B942F86D61D /* Sources */,
+				E71E433C47DD42CEC4A87E1712E35CC0 /* Frameworks */,
+				10DC154CBDD6445EEEBAED920C282680 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LITSwiftToolkit;
+			productName = LITSwiftToolkit;
+			productReference = AC1F92DACBC935FE673389C83DED1A83 /* LITSwiftToolkit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9033C7B14CF8EA8A282D82EE38E6EB7C /* Pods-LITSwiftToolkitExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB7B393744219D8776B96DCC6425418C /* Build configuration list for PBXNativeTarget "Pods-LITSwiftToolkitExample" */;
+			buildPhases = (
+				8B4CD1F480607AA5F554F018E4720E40 /* Sources */,
+				7D79824D78E4DB81478FBEC31F7D1951 /* Frameworks */,
+				04A257FC8AAD3414421AB826CF9231C6 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A3939B46F0C0776368E639649EF63CE0 /* PBXTargetDependency */,
+			);
+			name = "Pods-LITSwiftToolkitExample";
+			productName = "Pods-LITSwiftToolkitExample";
+			productReference = 0CBDA9B06058AEBF37F7BE287AB320A7 /* Pods_LITSwiftToolkitExample.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 93267D78E9322B249AFD5CC1D3DF8F3E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8B3A5F3D668B5DC0BD874F2036F5AE7E /* LITSwiftToolkit */,
+				9033C7B14CF8EA8A282D82EE38E6EB7C /* Pods-LITSwiftToolkitExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D703120B269E16749747B942F86D61D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DBE4649B1211AC4551B7C1C2A0D615F /* LITSwiftToolkit-dummy.m in Sources */,
+				12146E90B7682F2197AEA7DC50903AF7 /* NSStringExtensions.swift in Sources */,
+				5F713002012B484D35BC87E929D5A7E7 /* UIViewControllerExtensions.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B4CD1F480607AA5F554F018E4720E40 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA1974321E7A24FC1AF3E45DFCA10AD2 /* Pods-LITSwiftToolkitExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A3939B46F0C0776368E639649EF63CE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LITSwiftToolkit;
+			target = 8B3A5F3D668B5DC0BD874F2036F5AE7E /* LITSwiftToolkit */;
+			targetProxy = E416E282F32DA52DAE20CB5325BD9D40 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		297EE04C8D47ABB83A8A7C1F64A3B871 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C15E09A784A1D3F4AABC2C96E977D615 /* Pods-LITSwiftToolkitExample.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LITSwiftToolkitExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LITSwiftToolkitExample/Pods-LITSwiftToolkitExample.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_LITSwiftToolkitExample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		84AC4E2B9C4E4A4C4B3A88FB4429D75B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29BEE4BF8166AB49CE457073692DF3EE /* LITSwiftToolkit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LITSwiftToolkit/LITSwiftToolkit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LITSwiftToolkit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LITSwiftToolkit/LITSwiftToolkit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LITSwiftToolkit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A26C582EF126C5A4FC4E896524DAF28D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CAEAB68CB7E09F7E8DF8C63FFD95D15 /* Pods-LITSwiftToolkitExample.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LITSwiftToolkitExample/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LITSwiftToolkitExample/Pods-LITSwiftToolkitExample.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_LITSwiftToolkitExample;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F7ACF129873135581606B52714E5E523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29BEE4BF8166AB49CE457073692DF3EE /* LITSwiftToolkit.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LITSwiftToolkit/LITSwiftToolkit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LITSwiftToolkit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LITSwiftToolkit/LITSwiftToolkit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LITSwiftToolkit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		57661CB82E7950AA0C9AEB657EC00332 /* Build configuration list for PBXNativeTarget "LITSwiftToolkit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F7ACF129873135581606B52714E5E523 /* Debug */,
+				84AC4E2B9C4E4A4C4B3A88FB4429D75B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB7B393744219D8776B96DCC6425418C /* Build configuration list for PBXNativeTarget "Pods-LITSwiftToolkitExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				297EE04C8D47ABB83A8A7C1F64A3B871 /* Debug */,
+				A26C582EF126C5A4FC4E896524DAF28D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
