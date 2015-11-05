@@ -19,11 +19,10 @@ Pod::Spec.new do |s|
 
   s.source       = {
     :git => "https://github.com/LightweightInTouch/" + s.name + ".git",
-    :submodules => false,
     :tag => s.version.to_s
   }
 
-  s.source_files  = "LITSwiftToolkit/Tools/**/*.{swift}"
+  s.source_files  = "LITSwiftToolkit/Tools/**/*.{h,swift}"
   s.exclude_files = "Examples"
   s.frameworks = "Foundation", "UIKit"
 
