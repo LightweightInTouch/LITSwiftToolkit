@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B4ECBB5AADEFE89CD8B04EF1D73077B /* NSStringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 51FE9F427E9082B0C0ECC1525EB455F2 /* NSStringExtensions.swift */; };
 		0F9038F418F75C56C4E7613AF431C134 /* Pods-LITSwiftToolkitExample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9AA76929280C958385B6089E4958AEA /* Pods-LITSwiftToolkitExample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		12146E90B7682F2197AEA7DC50903AF7 /* NSStringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66E21CE63A10C5E59CA457EFDBFD8FE7 /* NSStringExtensions.swift */; };
-		3DBE4649B1211AC4551B7C1C2A0D615F /* LITSwiftToolkit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 528BFDBD777D5672DD4DF17B313787A1 /* LITSwiftToolkit-dummy.m */; };
+		157BDF0C5CD5FF45CDC5BDAD563CA87C /* LITSwiftToolkit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E43F7408975F11BD25A9B6668233A9DB /* LITSwiftToolkit-dummy.m */; };
+		452ADEA8D4161547C8967D1D64C2361E /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC0FBAA06A79063D125CD926C819BFA8 /* UIViewControllerExtensions.swift */; };
 		50894EED47359DF1102ACDA6FC59A997 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
 		5CFC44725BE56C226710E1C8AAA3BAB3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */; };
-		5F713002012B484D35BC87E929D5A7E7 /* UIViewControllerExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6081DFC9EEEA7092F0C474C92C190B68 /* UIViewControllerExtensions.swift */; };
-		6DF56F1022742A520D898D2339815B6B /* LITSwiftToolkit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5D9FEAF47EDBE1AFA14C2F55817F4031 /* LITSwiftToolkit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DF56F1022742A520D898D2339815B6B /* LITSwiftToolkit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A41401107CAF5EADE932B26AB0C2AB09 /* LITSwiftToolkit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7EBB4968CCF7396D2C35C488C4315683 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */; };
 		FA1974321E7A24FC1AF3E45DFCA10AD2 /* Pods-LITSwiftToolkitExample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 55860F76A034726A48F47B420C0167C0 /* Pods-LITSwiftToolkitExample-dummy.m */; };
 /* End PBXBuildFile section */
@@ -30,28 +30,28 @@
 
 /* Begin PBXFileReference section */
 		0CBDA9B06058AEBF37F7BE287AB320A7 /* Pods_LITSwiftToolkitExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LITSwiftToolkitExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		23DE9AFCE14DCB23A6C8E1DA0E18254A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		29BEE4BF8166AB49CE457073692DF3EE /* LITSwiftToolkit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LITSwiftToolkit.xcconfig; sourceTree = "<group>"; };
 		441DE240BF67FC4293A662595831DCD2 /* Pods-LITSwiftToolkitExample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LITSwiftToolkitExample.modulemap"; sourceTree = "<group>"; };
-		448376A45E914AA7D15CE06C7203FC77 /* LITSwiftToolkit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LITSwiftToolkit-prefix.pch"; sourceTree = "<group>"; };
 		4CAEAB68CB7E09F7E8DF8C63FFD95D15 /* Pods-LITSwiftToolkitExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LITSwiftToolkitExample.release.xcconfig"; sourceTree = "<group>"; };
 		4D90E13FCEE20BC53468C37F809B51F0 /* Pods-LITSwiftToolkitExample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LITSwiftToolkitExample-acknowledgements.markdown"; sourceTree = "<group>"; };
-		528BFDBD777D5672DD4DF17B313787A1 /* LITSwiftToolkit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LITSwiftToolkit-dummy.m"; sourceTree = "<group>"; };
+		51FE9F427E9082B0C0ECC1525EB455F2 /* NSStringExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSStringExtensions.swift; path = LITSwiftToolkit/Tools/Extensions/NSFoundation/NSStringExtensions.swift; sourceTree = "<group>"; };
 		54E7F5CA52919CB3BF5167964A7A753A /* Pods-LITSwiftToolkitExample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LITSwiftToolkitExample-frameworks.sh"; sourceTree = "<group>"; };
 		55860F76A034726A48F47B420C0167C0 /* Pods-LITSwiftToolkitExample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LITSwiftToolkitExample-dummy.m"; sourceTree = "<group>"; };
+		592169D91DF889CF8974FF471B89EB63 /* LITSwiftToolkit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LITSwiftToolkit.xcconfig; sourceTree = "<group>"; };
 		5BADBB197FA56BEDA507C1FF580247FA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5D9FEAF47EDBE1AFA14C2F55817F4031 /* LITSwiftToolkit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LITSwiftToolkit-umbrella.h"; sourceTree = "<group>"; };
-		5FD01740EB06E2F447AB22A0C9DB1855 /* LITSwiftToolkit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LITSwiftToolkit.modulemap; sourceTree = "<group>"; };
-		6081DFC9EEEA7092F0C474C92C190B68 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = UIViewControllerExtensions.swift; sourceTree = "<group>"; };
 		63E14296E8127BBE8724014624C39527 /* Pods-LITSwiftToolkitExample-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LITSwiftToolkitExample-resources.sh"; sourceTree = "<group>"; };
-		66E21CE63A10C5E59CA457EFDBFD8FE7 /* NSStringExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = NSStringExtensions.swift; sourceTree = "<group>"; };
 		688435909B215347011DEFD7DE13D8A1 /* Pods-LITSwiftToolkitExample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LITSwiftToolkitExample-acknowledgements.plist"; sourceTree = "<group>"; };
 		6E7E5AF37923BFA48D6994B9BFC6535F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		97DAA4A947BE4EB79972B323461F9A22 /* LITSwiftToolkit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LITSwiftToolkit-prefix.pch"; sourceTree = "<group>"; };
+		A41401107CAF5EADE932B26AB0C2AB09 /* LITSwiftToolkit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LITSwiftToolkit-umbrella.h"; sourceTree = "<group>"; };
 		AC1F92DACBC935FE673389C83DED1A83 /* LITSwiftToolkit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LITSwiftToolkit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B6D67F6DC7F1A2F471A3EDEA4FA1E9B1 /* LITSwiftToolkit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LITSwiftToolkit.modulemap; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C15E09A784A1D3F4AABC2C96E977D615 /* Pods-LITSwiftToolkitExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LITSwiftToolkitExample.debug.xcconfig"; sourceTree = "<group>"; };
 		C3B7BDF5CE5CB8F095FE12DA55D9A9BB /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		C9AA76929280C958385B6089E4958AEA /* Pods-LITSwiftToolkitExample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LITSwiftToolkitExample-umbrella.h"; sourceTree = "<group>"; };
+		D1A18E0638F0915CB539E0C37C4EE71B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC0FBAA06A79063D125CD926C819BFA8 /* UIViewControllerExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UIViewControllerExtensions.swift; path = LITSwiftToolkit/Tools/Extensions/UIKit/UIViewControllerExtensions.swift; sourceTree = "<group>"; };
+		E43F7408975F11BD25A9B6668233A9DB /* LITSwiftToolkit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LITSwiftToolkit-dummy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,14 +75,6 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0126200A09DEA5E5BA77AF7E49A432CE /* UIKit */ = {
-			isa = PBXGroup;
-			children = (
-				6081DFC9EEEA7092F0C474C92C190B68 /* UIViewControllerExtensions.swift */,
-			);
-			path = UIKit;
-			sourceTree = "<group>";
-		};
 		18340F12838DEE43507667CC74401EB1 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -92,13 +84,14 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		2D221793F7E8AFEBABC9EC30C5FDD771 /* Extensions */ = {
+		353C35D855E0B73723333086E6B2DD61 /* LITSwiftToolkit */ = {
 			isa = PBXGroup;
 			children = (
-				4BC78C852070BFC7726A494EE9BEA447 /* NSFoundation */,
-				0126200A09DEA5E5BA77AF7E49A432CE /* UIKit */,
+				51FE9F427E9082B0C0ECC1525EB455F2 /* NSStringExtensions.swift */,
+				DC0FBAA06A79063D125CD926C819BFA8 /* UIViewControllerExtensions.swift */,
+				9459839AB22C8599FA5195A5E0511E2D /* Support Files */,
 			);
-			path = Extensions;
+			path = LITSwiftToolkit;
 			sourceTree = "<group>";
 		};
 		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
@@ -109,12 +102,12 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		4BC78C852070BFC7726A494EE9BEA447 /* NSFoundation */ = {
+		4AEFFE511A43D78F271287FED0105210 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				66E21CE63A10C5E59CA457EFDBFD8FE7 /* NSStringExtensions.swift */,
+				353C35D855E0B73723333086E6B2DD61 /* LITSwiftToolkit */,
 			);
-			path = NSFoundation;
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		5050350BCA4995A14C76AEEC7B2E7FA8 /* Pods-LITSwiftToolkitExample */ = {
@@ -139,29 +132,11 @@
 			isa = PBXGroup;
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
-				EB061EB2B5812C09A43AE3576D58DCD1 /* Development Pods */,
 				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				4AEFFE511A43D78F271287FED0105210 /* Pods */,
 				93267D78E9322B249AFD5CC1D3DF8F3E /* Products */,
 				9013D81C8D0921E5B9E2ED4F52388A6D /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		7F6F9D9D2CD662CF40AA22DFEB369E81 /* LITSwiftToolkit */ = {
-			isa = PBXGroup;
-			children = (
-				8F189AD2121B66EA86606CD466D0FAC1 /* LITSwiftToolkit */,
-				CA303BBCC0EBEAD5113FD37CB3EB4D93 /* Support Files */,
-			);
-			name = LITSwiftToolkit;
-			path = ../../..;
-			sourceTree = "<group>";
-		};
-		8F189AD2121B66EA86606CD466D0FAC1 /* LITSwiftToolkit */ = {
-			isa = PBXGroup;
-			children = (
-				DDF9420F931BAC07D182458DA22FCAF5 /* Tools */,
-			);
-			path = LITSwiftToolkit;
 			sourceTree = "<group>";
 		};
 		9013D81C8D0921E5B9E2ED4F52388A6D /* Targets Support Files */ = {
@@ -181,34 +156,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		CA303BBCC0EBEAD5113FD37CB3EB4D93 /* Support Files */ = {
+		9459839AB22C8599FA5195A5E0511E2D /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				23DE9AFCE14DCB23A6C8E1DA0E18254A /* Info.plist */,
-				5FD01740EB06E2F447AB22A0C9DB1855 /* LITSwiftToolkit.modulemap */,
-				29BEE4BF8166AB49CE457073692DF3EE /* LITSwiftToolkit.xcconfig */,
-				528BFDBD777D5672DD4DF17B313787A1 /* LITSwiftToolkit-dummy.m */,
-				448376A45E914AA7D15CE06C7203FC77 /* LITSwiftToolkit-prefix.pch */,
-				5D9FEAF47EDBE1AFA14C2F55817F4031 /* LITSwiftToolkit-umbrella.h */,
+				D1A18E0638F0915CB539E0C37C4EE71B /* Info.plist */,
+				B6D67F6DC7F1A2F471A3EDEA4FA1E9B1 /* LITSwiftToolkit.modulemap */,
+				592169D91DF889CF8974FF471B89EB63 /* LITSwiftToolkit.xcconfig */,
+				E43F7408975F11BD25A9B6668233A9DB /* LITSwiftToolkit-dummy.m */,
+				97DAA4A947BE4EB79972B323461F9A22 /* LITSwiftToolkit-prefix.pch */,
+				A41401107CAF5EADE932B26AB0C2AB09 /* LITSwiftToolkit-umbrella.h */,
 			);
 			name = "Support Files";
-			path = "Examples/LITSwiftToolkitExample/Pods/Target Support Files/LITSwiftToolkit";
-			sourceTree = "<group>";
-		};
-		DDF9420F931BAC07D182458DA22FCAF5 /* Tools */ = {
-			isa = PBXGroup;
-			children = (
-				2D221793F7E8AFEBABC9EC30C5FDD771 /* Extensions */,
-			);
-			path = Tools;
-			sourceTree = "<group>";
-		};
-		EB061EB2B5812C09A43AE3576D58DCD1 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				7F6F9D9D2CD662CF40AA22DFEB369E81 /* LITSwiftToolkit */,
-			);
-			name = "Development Pods";
+			path = "../Target Support Files/LITSwiftToolkit";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -237,7 +196,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 57661CB82E7950AA0C9AEB657EC00332 /* Build configuration list for PBXNativeTarget "LITSwiftToolkit" */;
 			buildPhases = (
-				0D703120B269E16749747B942F86D61D /* Sources */,
+				9582F854DCF96209EAE8586EBC42D116 /* Sources */,
 				E71E433C47DD42CEC4A87E1712E35CC0 /* Frameworks */,
 				10DC154CBDD6445EEEBAED920C282680 /* Headers */,
 			);
@@ -296,21 +255,21 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		0D703120B269E16749747B942F86D61D /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				3DBE4649B1211AC4551B7C1C2A0D615F /* LITSwiftToolkit-dummy.m in Sources */,
-				12146E90B7682F2197AEA7DC50903AF7 /* NSStringExtensions.swift in Sources */,
-				5F713002012B484D35BC87E929D5A7E7 /* UIViewControllerExtensions.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		8B4CD1F480607AA5F554F018E4720E40 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FA1974321E7A24FC1AF3E45DFCA10AD2 /* Pods-LITSwiftToolkitExample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9582F854DCF96209EAE8586EBC42D116 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				157BDF0C5CD5FF45CDC5BDAD563CA87C /* LITSwiftToolkit-dummy.m in Sources */,
+				0B4ECBB5AADEFE89CD8B04EF1D73077B /* NSStringExtensions.swift in Sources */,
+				452ADEA8D4161547C8967D1D64C2361E /* UIViewControllerExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,7 +318,7 @@
 		};
 		84AC4E2B9C4E4A4C4B3A88FB4429D75B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29BEE4BF8166AB49CE457073692DF3EE /* LITSwiftToolkit.xcconfig */;
+			baseConfigurationReference = 592169D91DF889CF8974FF471B89EB63 /* LITSwiftToolkit.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;
@@ -455,7 +414,7 @@
 		};
 		F7ACF129873135581606B52714E5E523 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 29BEE4BF8166AB49CE457073692DF3EE /* LITSwiftToolkit.xcconfig */;
+			baseConfigurationReference = 592169D91DF889CF8974FF471B89EB63 /* LITSwiftToolkit.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 1;

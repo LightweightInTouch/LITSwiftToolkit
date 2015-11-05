@@ -16,10 +16,9 @@
   },
   "source": {
     "git": "https://github.com/LightweightInTouch/LITSwiftToolkit.git",
-    "submodules": false,
     "tag": "0.0.1"
   },
-  "source_files": "LITSwiftToolkit/Tools/**/*.{swift}",
+  "source_files": "LITSwiftToolkit/Tools/**/*.{h,swift}",
   "exclude_files": "Examples",
   "frameworks": [
     "Foundation",

@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '23538EABD49052CFB64EB597'
+               BlueprintIdentifier = '180A925A6DB0CB196CFBBD4B'
                BlueprintName = 'LITSwiftToolkit'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'LITSwiftToolkit.framework'>

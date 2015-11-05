@@ -18,7 +18,7 @@ def protocols
 end
 
 def utilities
-	pod 'LITSwiftToolkit', path: '../../'
+  pod 'LITSwiftToolkit' #,path: '../../'
 end
 
 def patterns
