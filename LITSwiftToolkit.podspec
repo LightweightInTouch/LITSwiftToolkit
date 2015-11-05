@@ -23,8 +23,8 @@ Pod::Spec.new do |s|
     :tag => s.version.to_s
   }
 
-  s.source_files  = "Tools/**/*.{swift}"
-  s.exclude_files = "Example"
+  s.source_files  = "LITSwiftToolkit/Tools/**/*.{swift}"
+  s.exclude_files = "Examples"
   s.frameworks = "Foundation", "UIKit"
 
   s.requires_arc = true  

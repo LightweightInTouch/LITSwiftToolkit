@@ -9,18 +9,18 @@
 import Foundation
 import UIKit
 
-extension UIViewController {
+public extension UIViewController {
   //MARK: Initialization
-  static func nibName() -> String {
+  public static func nibName() -> String {
     return NSStringFromClass(self)
   }
   
-  static func controllerWithDefaultNibName() -> Self {
+  public static func controllerWithDefaultNibName() -> Self {
     return self.init(nibName: self.nibName(), bundle: nil)
   }
   
   //MARK: Show/Hide
-  func showAlert(message: String?, cancel: String?) {
+  public func showAlert(message: String?, cancel: String?) {
     let controller = UIAlertController(title: nil, message: message, preferredStyle: .Alert)
     let cancel = UIAlertAction(title: cancel, style: .Cancel, handler: nil)
     controller.addAction(cancel)
@@ -28,13 +28,13 @@ extension UIViewController {
   }
   
   //MARK: Navigation
-  func safeDismiss(animated: Bool = true) {
+  public func safeDismiss(animated: Bool = true) {
     if let presentedViewController = self.presentedViewController {
       presentedViewController.dismissViewControllerAnimated(animated, completion: nil)
     }
   }
   
-  func safeBack(animated: Bool = true) {
+  public func safeBack(animated: Bool = true) {
     if let navigationController = self.navigationController {
       navigationController.popViewControllerAnimated(animated)
     }

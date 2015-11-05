@@ -8,18 +8,18 @@
 
 import Foundation
 
-extension String {
-  func telPrompt() -> String {
+public extension String {
+  public func telPrompt() -> String {
     return "telprompt://\(self)"
   }
   
-  func telPromptURL() -> NSURL? {
+  public func telPromptURL() -> NSURL? {
     return NSURL(string: self.telPrompt())
   }
 }
 
-extension NSAttributedString {
-  func linkify(textToFind: String, linkURL: NSURL) -> NSAttributedString {
+public extension NSAttributedString {
+  public func linkify(textToFind: String, linkURL: NSURL) -> NSAttributedString {
     let string = NSMutableAttributedString(attributedString: self)
     
     let foundRange = string.mutableString.rangeOfString(textToFind)
